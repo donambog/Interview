@@ -1,0 +1,51 @@
+--- Context --
+During the inteview I was given the below topic with a code provide by an Intern from An England Finance compagny.
+My assignment was to make a code review to the intern and provide my own version of this code
+-- Topic --
+VWAPer v0.1
+// Read file in with the following format:
+// [Stock],[Interval],[Volume Traded],[High],[Low]
+
+// Calculate the total volume traded per Stock
+// Calculate the total volume traded per Stock&Interval
+
+// Write the total volume traded per Stock&Interval as a percentage of the total volume traded per Stock to stdout:
+// [Stock],[Interval],[%Volume Traded]
+
+// Write the delimiter '#' to stdout
+
+// Write the maximum High and minimum Low for each Stock to stdout:
+// [Stock],[Day High],[Day Low]
+
+-- example input --
+VOD.L 1 100 184 183.7
+BT.LN 1 300 449.4 448.2
+VOD.L 2 25 184.1 182.4
+BT.LN 2 900 449.8 449.5
+
+-- example output --
+VOD.L,1,80q
+BT.LN,1,25
+VOD.L,2,20
+BT.LN,2,75
+#
+VOD.L,184.1,182.4
+BT.LN,449.8,448.2
+
+--Topic explained with my own word --
+It was asked to consider a stock data with the format [Stock],[Interval],[Volume Traded],[High],[Low] then complete the following steps in cpp:
+-Read the file respecting the required format
+- Compute volumes
+- Compute volume in %
+- write "#" to stdout
+- write max high and min Low
+-- assignment achieved --
+1- Reviewed the intern code, gave advices to help him progress: The CodeReview file is 'Code_Review_Intern_stockmain.cpp'(this will not be excute properly, please refer to my own stockmain.cpp)
+2- Proposed my own code for this program to make better here'stockmain.cpp'.
+ 2.a - HHOW TO EXCUTE MY CODE :
+    . On Linux with g++(1y) I played :  g++ -g -Wall -Werror stockmain.cpp test_data -o a.out then ./a.out
+    . On Window, visual studio code with c++ 11 or more, compile and excute stockmain.cpp don't forget to provide test_data.txt
+
+Note :
+- My discpline to aschieve this, I have spent 30 min each evening after completing my work day. I took me 1 week(2h and 30min)
+- Feel free to also  give me review, I'ld be happy to learn again.
