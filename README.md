@@ -1,8 +1,9 @@
---- Context --
+                               --- Context --
+
+
 During the inteview I was given the below topic with a code made by an Intern from an England Finance compagny.
 My assignment was to make a code review to the intern and provide my own version of this code
--- Topic --
-VWAPer v0.1
+                                -- Topic --
 // Read file in with the following format:
 // [Stock],[Interval],[Volume Traded],[High],[Low]
 
@@ -17,13 +18,13 @@ VWAPer v0.1
 // Write the maximum High and minimum Low for each Stock to stdout:
 // [Stock],[Day High],[Day Low]
 
--- example input --
+                    -- example input --
 VOD.L 1 100 184 183.7
 BT.LN 1 300 449.4 448.2
 VOD.L 2 25 184.1 182.4
 BT.LN 2 900 449.8 449.5
 
--- example output --
+                      -- example output --
 VOD.L,1,80q
 BT.LN,1,25
 VOD.L,2,20
