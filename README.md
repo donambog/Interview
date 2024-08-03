@@ -1,5 +1,5 @@
 --- Context --
-During the inteview I was given the below topic with a code provide by an Intern from An England Finance compagny.
+During the inteview I was given the below topic with a code made by an Intern from an England Finance compagny.
 My assignment was to make a code review to the intern and provide my own version of this code
 -- Topic --
 VWAPer v0.1
